@@ -33,6 +33,7 @@ public class RedisLimitAspect {
 
     @PostConstruct
     public void init() {
+
         redisScript = new DefaultRedisScript<>();
         redisScript.setResultType(Number.class);
         ClassPathResource classPathResource = new ClassPathResource(LIMIT_LUA_PATH);

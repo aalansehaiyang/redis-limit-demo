@@ -1,4 +1,4 @@
-package com.onyone.limit;
+package com.onyone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
